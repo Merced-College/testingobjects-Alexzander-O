@@ -1,4 +1,4 @@
 public class Book {
     
 }
-//data variables author, series, book
+//data variables author, series, title
