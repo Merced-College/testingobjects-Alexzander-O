@@ -10,7 +10,7 @@ public class Book {
 
 
     public Book() {            
-    // default constructor
+    //default constructors
     author = "Unknown";
     series = "Unkown";
     title = "Unknown";
@@ -18,7 +18,7 @@ public class Book {
 
 
     public Book(String author, String series, String title) { 
-    // parameterized constructor
+    //parameterized constructor
     this.author = author;
     this.series = series;
     this.title = title;
@@ -27,7 +27,7 @@ public class Book {
     
     @Override
     public String toString() {
-        return "Book{author='" + author + "', series=" + series + ", title='" + title + "'}";
+        return "Book{author = '" + author + "', series = '" + series + "', title = '" + title + "'}";
     }
 
 
@@ -52,6 +52,7 @@ public class Book {
         this.title = title; 
     }
 
+    //I don't really know what this is for but the code breaks without it.
     public void setSeries(String string) {
         throw new UnsupportedOperationException("Unimplemented method 'setSeries'");
     }

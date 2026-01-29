@@ -1,10 +1,10 @@
 public class BookTest {
     public static void main(String[] args) { 
         
-        // Create a Book with no constructors defined.
+        //create a Book with no constructors defined.
         Book book1 = new Book();
 
-        // Print the object.
+        //print the Book.
         System.out.println("Printing book1 directly:");
         System.out.println(book1);
 
@@ -16,12 +16,12 @@ public class BookTest {
         System.out.println("title = " + d1.getTitle()); // expected: null
         
 
-        // uses default constructor values
+        //uses the default constructor values
         Book d2 = new Book(); 
         System.out.println("\nd2 after default constructor:");
         System.out.println("author = " + d2.getAuthor() + ", series = " + d2.getSeries() + ", title = " + d2.getTitle());
 
-        // uses parameterized constructor
+        //uses parameterized constructors
         Book d3 = new Book("Brandon Sanderson", "Stormlight Archives", "Way of Kings"); 
         System.out.println("\nd3 after parameterized constructor:");
         System.out.println("author = " + d3.getAuthor() + ", series = " + d3.getSeries() + ", title = " + d3.getTitle());
