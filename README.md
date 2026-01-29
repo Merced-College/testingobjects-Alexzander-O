@@ -2,9 +2,13 @@
 # testingObjects
 
 //1.
-//2.Author, Series, Title, all set to a defualt of "Unknown".
+
+//2. Author, Series, Title, all set to a defualt of "Unknown".
+
 //3.
+
 //4.
+
 //5.
 
 this is an example of a ReadMe file.
